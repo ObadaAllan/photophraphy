@@ -202,6 +202,8 @@ letter-spacing: 5px;
 	color: white;
 	text-align: center;
 	display: inline-block;
+	margin: 25px 0 0 0;
+
   }
   .second .f1
   {
@@ -283,7 +285,7 @@ list-style-type: none;
 	margin:0;
 	background:#e9dada;
 }
-.form{width:340px;height: 500px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+.cf .form{width:340px;height: 500px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
 .cf .form h3{margin:20px 50px;padding-bottom:10px;width:180px;color:#78788c;border-bottom:3px solid #78788c}
 .cf .form  .in{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
 .cf .form  .in:focus{border-bottom:2px solid #78788c}
@@ -291,9 +293,11 @@ list-style-type: none;
 .cf .form .bu{float:right;padding:8px 12px;margin:8px 80px 0 80px;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
 .cf .form .bu:hover{background:#78788c;color:#fff}
 
-.topnav {
+ .topnav {
 	background-color: #2c2c2c;
-	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	margin: auto;
   }
   
   .topnav img {
@@ -304,6 +308,8 @@ list-style-type: none;
 	text-align: center;
 	padding: 14px 16px;
 	font-size: 17px;
+	background-color: #787676;
+	border-radius: 50%;
   }
   .topnav a {
 	float: left;
@@ -315,10 +321,13 @@ list-style-type: none;
   }
   
   .topnav a:hover {
-	background-color: #e6e6e6;
-	color: black;
+	background-color: #787676;
   }
   
   .topnav a.active {
 	color: white;
+  }
+  .header
+  {
+	padding-bottom: 100px;
   }
